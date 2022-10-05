@@ -1,0 +1,178 @@
+@font-face {
+  font-family: opensans;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+.container,
+body {
+  padding: 0;
+  width: 100%;
+  margin: auto;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style-type: none;
+}
+html,
+body,
+#__nuxt,
+#__layout {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: opensans;
+}
+body #wrapall {
+  height: 100%;
+}
+body #wrapall #wrap_btn_menu {
+  padding: 10px 0;
+  height: 8%;
+}
+body #wrapall #wrap_btn_menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #wrapall #wrap_btn_menu ul li {
+  padding: 5px;
+  display: flex;
+}
+body #wrapall #wrap_btn_menu ul li button,
+body #wrapall #wrap_btn_menu ul li a,
+body #wrapall #wrap_btn_menu ul li label {
+  border: #c2a971 solid 1.5px;
+  background-color: #b7bc9b;
+  outline: none;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 5vw;
+  padding: 10% 0;
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+  text-align: center;
+}
+body #wrapall #wrap_btn_menu ul li a {
+  text-decoration: none;
+  text-align: center;
+}
+body #wrapall #wrap_btn_menu ul li #import::-webkit-file-upload-button {
+  visibility: hidden;
+}
+body #wrapall #wrap_btn_menu ul li #import {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+body #wrapall #wrap_btn_menu ul li button:hover {
+  background-color: #c2a971;
+  color: #000;
+}
+body #wrapall #wrap_btn_menu ul li a:hover {
+  background-color: #c2a971;
+  color: #000;
+}
+body #wrapall #wrap_btn_menu ul li label:hover {
+  background-color: #c2a971;
+  color: #000;
+}
+body #wrapall #wrap_main {
+  height: 92%;
+  display: flex;
+  padding: 10px;
+  padding-top: 0;
+}
+body #wrapall #wrap_main #wrap_sidebar {
+  width: 10%;
+  border: 1.5px solid #c2a971;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #wrapall #wrap_main #wrap_sidebar span {
+  width: 90%;
+  border-radius: 5px;
+  background-color: #c2a971;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+body #wrapall #wrap_main #wrap_sidebar span:hover {
+  color: #FFF;
+}
+body #wrapall #wrap_main #wrap_content_config {
+  width: 90%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+body #wrapall #wrap_main #wrap_content_config .wrap_content {
+  height: 70%;
+  border: 1.5px solid #c2a971;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #wrapall #wrap_main #wrap_content_config #wrap_config {
+  height: 30%;
+  border: 1.5px solid #c2a971;
+  border-radius: 5px;
+  display: flex;
+}
+body #wrapall #wrap_main #wrap_content_config #wrap_config .wrap_item_config .config .config_title {
+  padding: 5px;
+}
+body #wrapall #wrap_main #wrap_content_config #wrap_config .wrap_item_config .config .config_input {
+  padding: 5px;
+}
+body #wrapall #wrap_main #wrap_content_config #wrap_config .wrap_item_config .config .config_input input {
+  width: 20vw;
+  height: 2vw;
+  outline: none;
+}
+body .wrap_item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+body .wrap_item .content {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  word-break: break-all;
+}
+body .wrap_item button {
+  outline: none;
+  cursor: pointer;
+  background-color: #FFF;
+  border-radius: 5px;
+  border: 1px solid #000;
+  height: 2vw;
+  transition: 0.2s ease-out;
+  margin-bottom: 5px;
+}
+body .wrap_item button:hover {
+  background-color: #000;
+  color: #FFF;
+}
